@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #1a2a6ca3, #2a3a7c, #394a8f, #4a5a9c);
+  background: linear-gradient(135deg, #0836efa3, #0834e2, #133ad8, #040d35);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   margin: 0;
@@ -267,6 +267,9 @@ a:hover {
     display: flex;
     text-align: center;
     padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 200;
     letter-spacing: 0.1rem;
   }
 }
@@ -274,8 +277,28 @@ a:hover {
 .hero-container .h1 {
   margin-bottom: 0.1rem;
   color: #fff;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
+.hero-container button {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #1a523518;
+  width: 16rem;
+  min-height: 5vh;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.hero-container button:hover {
+  background-color: #6f85f1;
+  transform: translateY(-2px);
+}
 .hero-container .hero-p {
   max-width: 600px;
   color: #fffafa;
@@ -285,30 +308,41 @@ a:hover {
 }
 .stack {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
   min-height: 100px;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin: 8px;
+  flex-wrap: wrap;
 }
 
 .stack svg {
   font-size: 2.3rem;
   transition: transform 0.2s;
+  background-color: rgba(0, 0, 128, 0.18);
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 0.5rem;
+  /* max-width: 100%; */
+  /* height: auto; */
 }
 
 @media only screen and (max-width: 992px) {
   .stack svg {
-    font-size: 1.8rem; 
-    transition: transform 0.2s;
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .stack svg {
-    font-size: 1.2rem; 
-    transition: transform 0.2s;
+    font-size: 1.2rem;
   }
 }
+
 
 .about-container {
   display: flex;
