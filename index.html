@@ -9,18 +9,28 @@
     <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
+    <div class="overlay"></div>
     <header class="header">
-      <a href="#home" class="logo">
-        <img src="/images/google.png" alt="Eagle Head"
-      /></a>
+      <a href="#home" class="logo"> &lt;/&gt; Portfolio </a>
       <nav>
-        <ul class="ul">
+        <ul class="ul menu">
           <li class="li"><a href="#home">Home</a></li>
           <li class="li"><a href="#about">About Us</a></li>
           <li class="li"><a href="#projects">Projects</a></li>
           <li class="li"><a href="#form">Contact Us</a></li>
         </ul>
-        <div class="hamburger">
+      </nav>
+      <div class="off-screen-menu">
+        <ul class="ul-off-screen">
+          <li class="li"><a href="#home">Home</a></li>
+          <li class="li"><a href="#about">About Us</a></li>
+          <li class="li"><a href="#projects">Projects</a></li>
+          <li class="li"><a href="#form">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <nav class="hamburgerM">
+        <div class="ham-menu">
           <span></span>
           <span></span>
           <span></span>
@@ -33,12 +43,21 @@
         <div class="hero-container">
           <h1 class="h1">Finall Projects</h1>
           <p class="hero-p">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-            consectetur neque esse, distinctio eius quam, enim consequuntur fuga
-            hic beatae vitae doloremque maiores repellendus voluptatem tempore
-            aliquid. Perferendis, fugiat aliquam.
+            See my journey in web development through these final projects. Each
+            one is crafted with clean HTML and responsive CSS, powered by
+            interactive JavaScript, showcasing my ability to build engaging and
+            functional web experiences. I also leverage Font Awesome for
+            polished design elements, ensuring a refined user interface. All
+            development workflows are managed efficiently using Git and GitHub,
+            reflecting my commitment to organized, scalable, and collaborative
+            coding practices. These projects represent the culmination of my
+            skills and passion for creating impactful digital solutions, often
+            enhanced by strategic prompting with AI tools to optimize creativity
+            and problem-solving.
           </p>
-          <button>Download Resume</button>
+          <button class="DownloadResume">
+            <a href="/Rich Dad Poor Dad.pdf" download>Download Resume</a>
+          </button>
         </div>
       </section>
 
@@ -89,13 +108,19 @@
               <div class="card-image">
                 <img src="/images/cyber.png" alt="Project 6" />
               </div>
-              <h3>Freelancer Personal Website</h3>
+              <h3>CYBERSECURITY</h3>
               <p>
-                A personal website built to showcase my skills, services, and
-                portfolio as a freelancer.
+                Protect your digital assets. I offer expert cybersecurity
+                services to safeguard your business from threats, ensuring data
+                integrity and system resilience.
               </p>
               <span>HTML, CSS, Font Awesome</span>
-              <a href="#" class="view-project">View Project</a>
+              <a
+                href="/Cybersecurity/index.html"
+                target="_blank"
+                class="view-project"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -103,10 +128,19 @@
               <div class="card-image">
                 <img src="/images/health.png" alt="Project 6" />
               </div>
-              <h3>Fitness Tracker</h3>
-              <p>Track workouts and progress.</p>
+              <h3>HEALTHPLUS PHARMACY</h3>
+              <p>
+                we're committed to serving our community with convenient access
+                to prescriptions, over-the-counter essentials, and personalized
+                pharmaceutical care. Your health, our priority.
+              </p>
               <span>React Native</span>
-              <a href="#" class="view-project">View Project</a>
+              <a
+                href="/Pharmacy/index.html"
+                target="_blank"
+                class="view-project"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -114,10 +148,19 @@
               <div class="card-image">
                 <img src="./images/cozy-bean.png" alt="Project 6" />
               </div>
-              <h3>Fitness Tracker</h3>
-              <p>Track workouts and progress.</p>
-              <span>React Native</span>
-              <a href="#" class="view-project">View Project</a>
+              <h3>The Cozy Bean</h3>
+              <p>
+                Welcome to The Cozy Bean, your perfect escape for exceptional
+                coffee and a warm, inviting atmosphere. Find your favorite brew
+                and a moment of peace right here
+              </p>
+              <span>HTML CSS</span>
+              <a
+                href="/CoffeeShop/index.html"
+                target="_blank"
+                class="view-project"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -125,21 +168,40 @@
               <div class="card-image">
                 <img src="/images/dj.png" alt="Project 6" />
               </div>
-              <h3>Fitness Tracker</h3>
-              <p>Track workouts and progress.</p>
-              <span>React Native</span>
-              <a href="#" class="view-project">View Project</a>
+              <h3>DJ Afro-Reggae-HipHop</h3>
+              <p>
+                exclusive mixes, live session highlights, and event bookings.
+              </p>
+              <span>HTML CSS</span>
+              <a
+                href="/ReggaMusic/index.html"
+                target="_blank"
+                class="view-project"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
             <div class="card-content">
               <div class="card-image">
-                <img src="/images/e-commerce.png" alt="Project 6" />
+                <img
+                  src="/images/e-commerce.png"
+                  alt="Black & White Threads E-commerce Project"
+                />
               </div>
-              <h3>Fitness Tracker</h3>
-              <p>Track workouts and progress.</p>
-              <span>React Native</span>
-              <a href="#" class="view-project">View Project</a>
+              <h3>Black & White Threads</h3>
+              <p>
+                featuring a collection of premium black and blue t-shirts. Users
+                can browse products, view details, and add items to a shopping
+                cart.
+              </p>
+              <span>HTML CSS JavaScript</span>
+              <a
+                href="/T-Shirts/index.html"
+                target="_blank"
+                class="view-project"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -147,10 +209,19 @@
               <div class="card-image">
                 <img src="/images/lowyer.png" alt="Project 6" />
               </div>
-              <h3>Fitness Tracker</h3>
-              <p>Track workouts and progress.</p>
-              <span>React Native</span>
-              <a href="#" class="view-project">View Project</a>
+              <h3>Justice Shield</h3>
+              <p>
+                Dedicated criminal defense. We provide expert legal
+                representation for DUI, drug crimes, assault, white-collar, and
+                more, protecting your rights against legal challenges.
+              </p>
+              <span>HTML CSS</span>
+              <a
+                href="/CriminalDefenseAdvocates/index.html"
+                target="_blank"
+                class="view-project"
+                >View Project</a
+              >
             </div>
           </div>
         </div>
@@ -185,5 +256,6 @@
         </footer>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
