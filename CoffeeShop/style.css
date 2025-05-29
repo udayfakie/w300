@@ -2,13 +2,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     line-height: 1.7;
-    color: #444; /* Darker text for better readability */
-    background-color: #f8f8f8; /* Light gray background */
-    text-align: center; /* Center text content by default */
+    color: #444; 
+    background-color: #f8f8f8; 
+    text-align: center; 
+}
+html{
+    scroll-behavior: smooth; 
 }
 
 header {
-    background-color: #546e7a; /* Slate gray header */
+    background-color: #546e7a; 
     color: white;
     padding: 1.5rem 2rem;
     display: flex;
@@ -18,7 +21,7 @@ header {
 }
 
 .logo {
-    text-align: left; /* Keep logo aligned left */
+    text-align: left; 
 }
 
 .logo-text {
@@ -28,7 +31,7 @@ header {
 }
 
 nav {
-    text-align: right; /* Keep navigation aligned right */
+    text-align: right; 
 }
 
 nav ul {
@@ -54,7 +57,7 @@ nav a:hover {
 }
 
 #hero {
-    background-image: url('hero-image.jpg'); /* Replace with your hero image */
+    background-image: url('hero-image.jpg'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -89,12 +92,12 @@ nav a:hover {
     border-radius: 8px;
     font-weight: 500;
     transition: background-color 0.3s ease, color 0.3s ease;
-    background-color: #795548; /* Brown button */
+    background-color: #795548; 
     color: white;
 }
 
 .btn:hover {
-    background-color: #4e342e; /* Darker brown hover */
+    background-color: #4e342e; 
 }
 
 .section-title {
@@ -102,12 +105,12 @@ nav a:hover {
     font-size: 2.5rem;
     font-weight: 700;
     padding: 4rem 0;
-    color: #546e7a; /* Slate gray title */
+    color: #546e7a; 
 }
 
 #menu {
     padding: 4rem 2rem;
-    background-color: #fff; /* White menu background */
+    background-color: #fff; 
 }
 
 .menu-grid {
@@ -115,12 +118,12 @@ nav a:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
     padding: 2rem;
-    max-width: 1000px; /* Center the grid */
+    max-width: 1000px; 
     margin: 0 auto;
 }
 
 .menu-item {
-    background-color: #f9f9f9; /* Light gray menu item background */
+    background-color: #f9f9f9; 
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -132,8 +135,8 @@ nav a:hover {
 }
 
 .menu-icon {
-    font-size: 3rem; /* Size of the icons */
-    color: #795548; /* Brown icon color */
+    font-size: 3rem; 
+    color: #795548; 
     margin-bottom: 1rem;
 }
 
@@ -181,7 +184,7 @@ nav a:hover {
 
 .story-text {
     flex: 1;
-    text-align: left; /* Align story text to the left */
+    text-align: left; 
 }
 
 .story-text p {
@@ -212,7 +215,7 @@ nav a:hover {
 }
 
 .social-links {
-    text-align: center; /* Center social icons */
+    text-align: center;
 }
 
 .social-links a {
@@ -235,7 +238,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -273,6 +275,6 @@ footer {
     }
 
     .story-text {
-        text-align: center; /* Center story text on smaller screens */
+        text-align: center; 
     }
 }
