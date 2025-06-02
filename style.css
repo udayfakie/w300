@@ -49,11 +49,18 @@ body {
   justify-content: space-around;
   top: 0;
   padding: 0.8rem 1rem;
-  background-color: rgba(0, 28, 111, 0.587);
+  background-color: rgb(0, 28, 111);
   width: 100%;
   z-index: 1001;
 }
 
+
+
+/* .logo:hover{
+font-size: 30px;
+  transition: all 0.5s ease-in-out;
+  color: #dbd6f9;
+} */
 .logo {
   display: flex;
   align-items: center;
@@ -75,14 +82,21 @@ ul {
 }
 
 a {
+  padding: 0.2rem 0.5rem;
   text-decoration: none;
   color: #d7d9e2;
   font-weight: 600;
 }
 
-a:hover {
-  color: #131214;
+
+li a:hover {
+  color: #02278b;
   font-weight: 600;
+  background-color: #ffffffe6;
+  padding: 0.2rem 0.5rem ;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+  
 }
 
 .ham-menu {
