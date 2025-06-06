@@ -54,13 +54,18 @@ body {
   z-index: 1001;
 }
 
+.logo-text{
+  font-size: 1.4em;
+  color: #d0c9f7;
+  background-color: #1703f3;
+  font-weight: bold;
+ border-radius: 10px;
+  padding: 0.1rem 0.2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin:  10px 0;
+}
 
 
-/* .logo:hover{
-font-size: 30px;
-  transition: all 0.5s ease-in-out;
-  color: #dbd6f9;
-} */
 .logo {
   display: flex;
   align-items: center;
@@ -581,4 +586,17 @@ li a:hover {
 
 .header {
   z-index: 1001;
+}
+.FeaturedProjects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #02065552;
+  border-radius: 15px;
+  margin: 10px auto ;
 }
